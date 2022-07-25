@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+    width: 100%;
     padding: 0 15%;
 }
 
@@ -114,6 +115,108 @@ footer {
 
 .paragraph__text__green {
     color: rgb(12, 175, 12);
+}
+
+.paragraph__text__arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog h5 {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.blog a {
+    color:rgb(31, 111, 231);
+}
+
+.blog p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin: 10px 0;
+}
+
+.blog li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-left: 30px;
+}
+
+.bordered {
+    border: solid 1px lightgray;
+}
+
+.bordered-bottom {
+    border-bottom: solid 1px lightgray;
+}
+
+.paragraph__code {
+    font-family: 'Rubik', sans-serif;
+}
+
+aside {
+    max-width: 300px;
+    margin-left: 35px;
+}
+
+.blog__heading {
+    font-family: 'Rubik', sans-serif;
+}
+
+.about__wrapper {
+    background-color: rgb(241, 241, 241);
+    padding: 15px;
+}
+
+.aside__links {
+    padding: 15px;
+}
+
+.aside__links h3 {
+    margin-bottom: 5px;
+}
+
+.aside__links a {
+    color: rgb(31, 111, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+.buttons__wrapper {
+    margin: 25px 0;
+}
+
+.buttons__wrapper button {
+    padding: 8px 10px;
+    border-radius: 25px;
+    border-width: 1px;
+    background-color: white;
+}
+
+.blog__button__active {
+    border: 1px solid rgb(31, 111, 231);
+    color: rgb(31, 111, 231);
+}
+
+.pb-1 {
+    padding-bottom: 5px;
+}
+
+.pb-2 {
+    padding-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
 }
 
 .grid {
