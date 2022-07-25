@@ -13,6 +13,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+}
+
+.home__wrapper {
+    height: 100vh;
+    width: 100%;
 }
 
 .container {
@@ -51,6 +57,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: box-shadow border 1s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 0 2px rgb(232, 232, 232);
+    border-radius: 5px;
 }
 
 .card__category {
@@ -75,6 +87,8 @@ header {
 
 .card__link {
     color: rgb(31, 111, 231);
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4rem;
 }
 
 article div {
@@ -217,6 +231,10 @@ aside {
 
 .flex-col {
     flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .grid {
